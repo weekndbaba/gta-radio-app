@@ -1,0 +1,20 @@
+name: gta_radio
+description: Radio-style streaming app with background playback.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_service: ^0.18.15
+  just_audio: ^0.9.40
+  permission_handler: ^11.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/stations.json
+    - assets/audio/Example_Group/
