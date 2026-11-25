@@ -3,12 +3,6 @@
 Background-playing radio app: group cards -> station carousel, notification /
 lock-screen / Bluetooth controls, keeps playing after you close the app.
 
-## Get the APK (no installs needed)
-1. Create a free GitHub account and a new repository.
-2. Upload everything in this folder (keep the `.github` folder) and commit to `main`.
-3. Open the repo's **Actions** tab -> "Build APK" -> wait ~5-8 min.
-4. Open the finished run -> **Artifacts** -> download `retro-radio-apk`, unzip, copy
-   `app-release.apk` to your phone and install (allow "install unknown apps").
 
 ## Offline mode (bundled audio)
 Put audio in `assets/audio/<Group_Name>/<Station_Name>.mp3` (see `assets/audio/README.txt`),
